@@ -2,7 +2,7 @@
 
 '''
 Generate notepad filled with BDC info
-V1.1.0
+V1.1.2
 Author: Remi NGUYEN
 
 '''
@@ -271,7 +271,8 @@ if __name__ == "__main__":
     my_file.write(vlan_ + "\n\n")
 
     my_file.write(site_a_ + "\n")
-    my_file.write("POP\t\t\t\n\n\nCPE\t\t\t\n\n\n")
+    my_file.write("POP\t\t\t\n\nCPE\t\t\t\n\n\n")
+    my_file.write(site_b_ + "\n\n")
 
     my_file.write("--[INFO]--\n")
     my_file.write(info_complementaires + "\n\n")
